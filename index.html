@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>трайенчик</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      animation: fade 1.5s ease;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #00ffcc;
+      text-decoration: none;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    @keyframes fade {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Trayenn</h1>
+    <p>Возраст: 16</p>
+    <p>Страна: Украина</p>
+    <a href="https://t.me/trayenn" target="_blank">Мой Telegram</a>
+  </div>
+</body>
+</html>
